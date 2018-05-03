@@ -1,0 +1,48 @@
+.labelParametrs {
+    width: 150px;
+    color: red;
+    font-size: 100%;
+}
+
+.compBut {
+    background-color: #4C4C4C;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-left:100px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	border-spacing: 0;
+	
+}
+html, 
+body {
+	width: 100%;
+	height: 100%;
+}
+#left {
+	float: left; 
+	width: 50%; 
+	height:100%; 
+	overflow: auto;
+
+}
+#right {
+	height:100%; 
+	margin-left: 50%;
+	overflow: auto;
+
+}
+
+
+
+
+
+

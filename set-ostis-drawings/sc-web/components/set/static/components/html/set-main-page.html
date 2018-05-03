@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript">
+ $(document).ready(function (){
+ $('#block input').change(function(){   
+ if($('#block input').filter(':checked').size()==1) {
+    $('#block input').not(':checked').attr('disabled','disabled');}
+ else{
+    $('#block input').removeAttr('disabled');
+    }
+ });        
+    });/* end ready*/
+</script>
+	</head>
+
+	<body>
+		<h2 id="labelTitle"></h2>
+		  <div id="left">
+			<div class="diveline1" visibility="hidden">
+			
+			    <text id="labelAnswer" type="text">Результат:</text>
+				<text id="labelCurrAnswer" class="labelParametrs" type="text">отсутствует</text><br>
+				<div class="dropdown">
+					<div id="actorsDropdown" class="dropdown-content">
+					</div>
+				</div>
+            </div>
+          </div>
+<div id="right">
+<div id="block">
+			    <text type="text">Награды:</text><br>
+            	<text id="labelOskar" type="text">Оскар</text>
+				<input type="checkbox" id="oskarCheck"><br>
+                <text id="labelGoldGl" type="text">Золотой глобус</text>
+				<input type="checkbox" id="goldGlCheck"><br>
+                <text id="labelRaspberry" type="text">Золотая малина</text>
+				<input type="checkbox" id="raspberryCheck"><br>
+				<text id="labelSezar" type="text">Сезар</text>
+				<input type="checkbox" id="sezarCheck"><br>
+				<text id="labelMaska" type="text">Золотая маска</text>
+				<input type="checkbox" id="maskaCheck"><br>
+                <text id="labelVetv" type="text">Золотая пальмовая ветвь</text>
+				<input type="checkbox" id="vetvCheck"><br>
+				<text id="labelBear" type="text">Золотой медведь</text>
+				<input type="checkbox" id="bearCheck"><br>
+	</div>		
+
+            	<button id="buttonFindActors" type="button" class="compBut">Найти актёров</button>
+</div>
+</html>
+
+<script>
+function myFunction() {
+    document.getElementById("actorsDropdown").classList.toggle("show");
+}
+</script>

@@ -1,0 +1,98 @@
+ui_find_actor
+	<- ui_scgg_control; sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Найти актёров по награде]
+		(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+        	[search actor by award]
+(* <- lang_en;; *);;
+
+ui_title_text
+	<- ui_scgg_control; sc_node_not_relation;
+	=> nrel_main_idtf:
+		[Поиск актёров по наградам]
+		(* <- lang_ru;; *);
+	=> nrel_main_idtf:
+        	[Search for actor by awards]
+(* <- lang_en;; *);;
+
+ui_oskar
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Оскар]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Oskar]
+(* <- lang_en;; *);;
+
+ui_golden_globus
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Золотой глобус]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Golden Globus]
+(* <- lang_en;; *);;
+
+ui_raspberry
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Золотая малина]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Golden raspberry]
+(* <- lang_en;; *);;
+
+ui_sezar
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Сезар]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Sezar]
+(* <- lang_en;; *);;
+
+ui_maska
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Золотая маска]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Golden mask]
+(* <- lang_en;; *);;
+
+ui_vetv
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Золотая пальмовая ветвь]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Golden palm branch]
+(* <- lang_en;; *);;
+
+ui_bear
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Золотой медведь]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Golden bear]
+(* <- lang_en;; *);;
+
+ui_answer
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Результат]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Result]
+(* <- lang_en;; *);;
+
+ui_select_actors
+    <- ui_scgg_control; sc_node_not_relation;
+    => nrel_main_idtf:
+        [Актёры]
+        (* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Actors]
+(* <- lang_en;; *);;
